@@ -23,6 +23,60 @@ console.log(age);  // Output: 35
 let isstudent = true;  // Works!
 console.log(isstudent);  // Output: true
 let favouritecolor = "blue,red,grey";  // Works!
-console.log(favouritecolor);  // Output: blue,red,grey
+console.log(favouritecolor);  // Output: blue,red,greygit
 let todaydate = "2026-03-12";  // Works!
 console.log(todaydate);  // Output: 2026-03-12
+
+// Number operations - Basic maths
+let a = 10;
+let b = 3;
+
+console.log(a + b);   // Addition
+console.log(a - b);   // Subtraction
+console.log(a * b);   // Multiplication
+console.log(a / b);   // Division
+console.log(a % b);   // Modulus (remainder)
+console.log(a ** b);  // Exponentiation
+
+// Increment/Decrement
+let count = 0;
+count++;  // count is now 1
+count--;  // count is now 0
+
+// string operations
+let firstName = "John";
+let lastName = "Doe";
+
+// Concatenation
+let fullName = firstName + " " + lastName;
+
+// Template literals (preferred)
+let greeting = `Hello, ${firstName}!`;
+let message = `Your name has ${firstName.length} characters.`;
+
+// String methods
+console.log(fullName.toUpperCase());
+console.log(fullName.toLowerCase());
+console.log(firstName.charAt(0));
+console.log(fullName.includes("John"));
+
+//comparison and logical operators
+// Comparison
+console.log(5 > 3);    // true
+console.log(5 < 3);    // false
+console.log(5 === 5);  // true (strict equality)
+console.log(5 == "5"); // true (loose equality - avoid!)
+console.log(5 !== 3);  // true
+
+// Logical
+console.log(true && true);   // AND
+console.log(true || false);  // OR
+console.log(!true);          // NOT
+
+// age in days
+letageInYears = 35;
+let ageInDays = ageInYears * 365;
+console.log(`35 ${365} days old.`);
+
+
+
