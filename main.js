@@ -74,9 +74,25 @@ console.log(true || false);  // OR
 console.log(!true);          // NOT
 
 // age in days
-letageInYears = 35;
+let ageInYears = 35;
 let ageInDays = ageInYears * 365;
-console.log(`35 ${365} days old.`);
+
+console.log(`If you are ${ageInYears} years old, you are about ${ageInDays} days old.`);
+
+//age in hours
+let ageInHours = ageInDays * 24;
+console.log(`If you are ${ageInYears} years old, you are about ${ageInHours} hours old.`);
+
+// the year you will turn 100
+let currentYear = new Date().getFullYear();
+let yearsUntil100 = 100 - ageInYears;
+let yearTurning100 = currentYear + yearsUntil100;
+console.log(`You will turn 100 years old in the year ${yearTurning100}.`);
+
+//Functions -Functions Declaration
+
+
+    
 
 
 
