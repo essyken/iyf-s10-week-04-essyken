@@ -7,7 +7,7 @@
 
 
 ## Project Description
-- nteractive Calculator (basic math operations)
+- Interactive Calculator (basic math operations)
 - Student Grade Tracker (arrays, objects, data manipulation)
 - All exercises from Lessons 7 & 8.
 
@@ -202,3 +202,10 @@ Before advanced topics, you must be solid in:
 - Data types
 - Functions
 - Conditions and loops
+
+  ### problems encountered
+  - syntax errors
+  - unable to open in the console
+  #### how i solved
+  - checking whether the codes have been declared.
+  - tried opening in different browsers
