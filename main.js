@@ -400,10 +400,10 @@ const gradeTracker = {
     }
 };
 
-gradeTrackeraddStudent("Alice", { math: 85, english: 90, science: 88 });
+gradeTracker.addStudent("Alice", { math: 85, english: 90, science: 88 });
 gradeTracker.addStudent("Bob", { math: 60, english: 65, science: 58 });
-    gradeTracker.addStudent("Charlie", { math: 95, english: 92, science: 96 });
-    gradeTracker.addStudent("Diana", { math: 70, english: 75, science: 72 });
+gradeTracker.addStudent("Charlie", { math: 95, english: 92, science: 96 });
+gradeTracker.addStudent("Diana", { math: 70, english: 75, science: 72 });
 
 console.log(gradeTracker.getStudentAverage("Alice")); 
 console.log(gradeTracker.getSubjectAverage("math")); 
